@@ -1,4 +1,26 @@
-tbody tr:hover {
+table {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+table th {
+  width: 100%;
+  text-align: center;
+}
+table tr {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid aqua !important;
+  border-radius: 20px;
+  margin-top: 20px;
+}
+table tr td {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+table tr:hover {
   background-color: aqua;
   border-radius: 500px;
 }/*# sourceMappingURL=style.css.map */

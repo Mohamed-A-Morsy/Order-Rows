@@ -54,8 +54,8 @@ let userData = [
       for(let i = 0; i < userData.length; i++){
           allRows += `
         
-        <tr class="border ">
-              <td>${userData[i].id}</td>
+        <tr>
+              <td >${userData[i].id}</td>
               <td>${userData[i].name}</td>
               <td>${userData[i].number}</td>
               <td>${userData[i].date}</td>
