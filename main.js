@@ -53,15 +53,15 @@ let userData = [
       let allRows = ""
       for(let i = 0; i < userData.length; i++){
           allRows += `
-          <div class="col-md-12 mt-2">
-          <div class="innerHtml  d-flex justify-content-between rounded-pill px-3 pt-1 align-items-center">
-          <p>${userData[i].id}</p>
-          <p>${userData[i].name}</p>
-          <p>${userData[i].number}</p>
-          <p>${userData[i].date}</p>
-          <p>${userData[i].Activation}</p>
-          </div>
-        </div>
+        
+        <tr class="border ">
+              <td>${userData[i].id}</td>
+              <td>${userData[i].name}</td>
+              <td>${userData[i].number}</td>
+              <td>${userData[i].date}</td>
+              <td>${userData[i].Activation}</td>
+            </tr>
+
           
           `
           document.getElementById("rows").innerHTML = allRows
