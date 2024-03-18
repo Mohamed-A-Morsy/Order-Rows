@@ -1,9 +1,4 @@
-.innerHtml {
-  border: 2px solid #09c;
-}
-
-.innerHtml:hover {
-  background-color: #09c;
-  color: white;
-  transition: all 0.5s;
+tr:hover {
+  background-color: aqua;
+  border-radius: 500px;
 }/*# sourceMappingURL=style.css.map */
